@@ -13,6 +13,14 @@
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
 
+ <remote  name="omnirom"
+          fetch="https://github.com/omnirom/"
+          review="gerrit.omnirom.com" />
+
+ <remote  name="ma"
+          fetch="https://github.com/MichaelAkhnoukh/"
+          />
+
  <default revision="refs/tags/android-6.0.1_r46"
           remote="aosp"
           sync-c="true"
