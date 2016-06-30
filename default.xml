@@ -33,7 +33,7 @@
           remote="aosp"
           sync-c="true"
           sync-f="true"
-          sync-j="8" />
+          sync-j="4" />
 
  <!--AOSP REPOS-->
  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
