@@ -12,12 +12,16 @@
  <remote  name="du"
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
+ 
+ <remote  name="CyanogenMod"
+          fetch="https://github.com/CyanogenMod/"
+          review="review.cyanogenmod.org" />
 
  <remote  name="omnirom"
           fetch="https://github.com/omnirom/"
           review="gerrit.omnirom.com" />
 
- <remote  name="ma"
+ <remote  name="MichaelAkhnoukh"
           fetch="https://github.com/MichaelAkhnoukh/"
           />
 
