@@ -9,11 +9,12 @@
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
-
+  <!-- MA remote -->
   <remote  name="MichaelAkhnoukh"
           fetch="https://github.com/MichaelAkhnoukh/"
           />
 
+  <!-- sony blobs -->
   <remote  name="DonkeyCoyote"
           fetch="https://github.com/DonkeyCoyote/"
           />
