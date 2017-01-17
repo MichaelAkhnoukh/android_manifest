@@ -9,11 +9,19 @@
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
+  
+  <!-- MA remote -->
+  <remote  name="MichaelAkhnoukh"
+           fetch="https://github.com/MichaelAkhnoukh/" />
+
+  <!-- DonkeyCoyote -->
+  <remote  name="DonkeyCoyote"
+           fetch="https://github.com/DonkeyCoyote/" />
 
   <!-- DU REPOS -->
 
   <!-- general -->
-  <project path="build" name="android_build" remote="du" revision="n7x" >
+  <project path="build" name="android_build" remote="MA" revision="n7x" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="du" revision="n7x" />
@@ -27,7 +35,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n7x" />
   <project path="development" name="android_development" remote="du" revision="n7x" />
   <project path="libcore" name="android_libcore" remote="du" revision="n7x" />
-  <project path="manifest" name="android_manifest" remote="du" revision="n7x" />
+  <project path="manifest" name="android_manifest" remote="MA" revision="n7x" />
 
   <!-- external -->
   <project path="external/changeloglib" name="android_external_changeloglib" remote="du" revision="n7x" />
@@ -107,6 +115,6 @@
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" revision="n7x" />
 
   <!-- vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="du" revision="n7x" />
+  <project path="vendor/du" name="android_vendor_du" remote="MA" revision="n7x" />
 
 </manifest>
