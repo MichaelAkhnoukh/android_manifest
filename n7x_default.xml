@@ -10,7 +10,7 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
   <!-- MA remote -->
-  <remote  name="MichaelAkhnoukh"
+  <remote  name="MA"
           fetch="https://github.com/MichaelAkhnoukh/"
           />
 
